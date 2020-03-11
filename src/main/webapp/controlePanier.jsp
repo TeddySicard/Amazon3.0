@@ -10,8 +10,7 @@
 		response.sendRedirect("./index.jsp");
 	} else {
 		Panier lePanier = (Panier) session.getAttribute("panier");
-		CatalogueManager catalogueManager = (CatalogueManager) application
-				.getAttribute("catalogueManager");
+		CatalogueManager catalogueManager = (CatalogueManager) application.getAttribute("catalogueManager");
 		String commande = request.getParameter("commande");
 		String refArticle = request.getParameter("refArticle");
 		Article unArticle;
@@ -19,8 +18,7 @@
 		if (commande != null) {
 			if (commande.equals("ajouterLigne")) {
 				unArticle = new Article();
-				unArticle = catalogueManager
-						.chercherArticleParRef(refArticle);
+				unArticle = catalogueManager.chercherArticleParRef(refArticle);
 				lePanier.ajouterLigne(unArticle);
 			} else if (commande.equals("recalculerPanier")) {
 				it = lePanier.getLignesPanier().iterator();
@@ -28,10 +26,8 @@
 				while (it.hasNext()) {
 					uneLignePanier = (LignePanier) it.next();
 					unArticle = uneLignePanier.getArticle();
-					uneLignePanier.setQuantite(Integer.parseInt(request
-							.getParameter("cart["
-									+ unArticle.getRefArticle()
-									+ "][qty]")));
+					uneLignePanier.setQuantite(Integer
+							.parseInt(request.getParameter("cart[" + unArticle.getRefArticle() + "][qty]")));
 				}
 				lePanier.recalculer();
 			} else if (commande.equals("supprimerLigne")) {
@@ -41,10 +37,14 @@
 			}
 		}
 		it = lePanier.getLignesPanier().iterator();
-		if (!it.hasNext()) {
-			response.sendRedirect(response.encodeURL("affichePanierVide.jsp"));
+		if (commande != null && commande.equals("ajouterLigne")) {
+			response.sendRedirect(response.encodeURL("afficheRecherche.jsp"));
 		} else {
-			response.sendRedirect(response.encodeURL("affichePanier.jsp")) ;
-		} 
+			if (!it.hasNext()) {
+				response.sendRedirect(response.encodeURL("affichePanierVide.jsp"));
+			} else {
+				response.sendRedirect(response.encodeURL("affichePanier.jsp"));
+			}
+		}
 	}
 %>

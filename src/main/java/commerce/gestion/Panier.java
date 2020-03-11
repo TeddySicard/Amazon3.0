@@ -105,4 +105,12 @@ public class Panier {
 		return this.lignesPanier.size();
 	}
 	
+	public int getNbArticlesCommandes() {
+		int res = 0;
+		for(LignePanier lp : lignesPanier) {
+			res += lp.getQuantite();
+		}
+		return res;
+	}
+	
 }

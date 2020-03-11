@@ -32,7 +32,7 @@
 			class="menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="<%=response.encodeURL("./controlePanier.jsp")%>">Panier
 			<span class="badge"><%
-				out.print(lePanier.getNbLignesPanier());		
+				out.print(lePanier.getNbArticlesCommandes());		
 			%></span>
 			</a>
 			
