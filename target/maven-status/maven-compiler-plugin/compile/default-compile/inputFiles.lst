@@ -1,72 +1,74 @@
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Charts.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\amazon\apaIO\ApaiIO.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Offer.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\internal\PlaylistId.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\internal\UserId.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\commerce\catalogue\service\CatalogueManager.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\internal\search\SearchArtist.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\ArtistRadio.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Data.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\commerce\catalogue\service\Loader.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\io\ResourceConnection.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Object.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Radio.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Playlist.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Followers.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Album.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Tracks.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\commerce\catalogue\domaine\utilitaire\HibernateUtil.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Track.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\service\RestClientException.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\commerce\catalogue\domaine\modele\Piste.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Editorial.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\commerce\catalogue\domaine\utilitaire\UniqueKeyGenerator.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\commerce\catalogue\domaine\modele\Musique.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\amazon\apaIO\request\rest\Request.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\commerce\gestion\LignePanier.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\internal\search\SearchAutocomplete.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Albums.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\internal\search\Search.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\amazon\apaIO\request\SignedRequestsHelper.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\internal\ArtistId.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\internal\search\SearchUser.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\commerce\web\utilitaire\CharsetFilter.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Comments.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Followings.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Top.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Fans.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\RadioGenresItem.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\amazon\apaIO\configuration\GenericConfiguration.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\internal\AlbumId.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\commerce\gestion\Panier.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Autocomplete.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Related.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Artist.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\RadioItem.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\amazon\apaIO\io\ResourceConnection.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\EditorialItem.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\amazon\apaIO\io\HttpResourceConnection.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\io\HttpResourceConnection.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Comment.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\amazon\apaIO\configuration\Country.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\internal\TrackId.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\amazon\apaIO\configuration\ConfigurationInterface.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Genre.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Users.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\service\DeezerRestTemplate.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\client\DeezerClient.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Infos.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\amazon\apaIO\operations\Search.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\commerce\catalogue\service\InitAmazon.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\internal\CommentId.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\amazon\apaIO\request\RequestInterface.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\RadioGenres.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Genres.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\commerce\catalogue\domaine\modele\Livre.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\User.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Playlists.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Artists.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\internal\search\SearchAlbum.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\commerce\catalogue\domaine\modele\Article.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\Creator.java
-P:\TP INFO2\AT04_ConceptionApplicationsWeb\Teddy\eclipse\tpv37_amazon_java_040220\tpv37\src\main\java\com\zeloon\deezer\domain\internal\search\SearchOrder.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Radio.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\RadioGenresItem.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Artist.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Creator.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Offer.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\catalogue\domaine\modele\Piste.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Autocomplete.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\service\DeezerRestTemplate.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\catalogue\service\Loader.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Genres.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\service\RestClientException.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\catalogue\domaine\modele\Musique.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\catalogue\domaine\utilitaire\HibernateUtil.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\client\DeezerClient.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\internal\PlaylistId.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Playlist.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Related.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Followers.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\gestion\LignePanier.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Comment.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\amazon\apaIO\ApaiIO.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\amazon\apaIO\request\SignedRequestsHelper.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\catalogue\domaine\modele\Article.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\catalogue\domaine\modele\Livre.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Track.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Fans.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\amazon\apaIO\io\HttpResourceConnection.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Top.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\ArtistRadio.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\EditorialItem.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\io\HttpResourceConnection.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\catalogue\domaine\utilitaire\UniqueKeyGenerator.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Users.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\io\ResourceConnection.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\amazon\apaIO\configuration\ConfigurationInterface.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\internal\TrackId.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\gestion\Panier.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Data.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Object.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\internal\ArtistId.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Albums.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\amazon\apaIO\operations\Search.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\web\utilitaire\CharsetFilter.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Infos.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Charts.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\internal\UserId.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\internal\search\SearchArtist.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\RadioItem.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\amazon\apaIO\io\ResourceConnection.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Artists.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\amazon\apaIO\request\RequestInterface.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Comments.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Followings.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\gestion\Commande.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\amazon\apaIO\configuration\GenericConfiguration.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Playlists.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\gestion\ListeCommande.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\User.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\amazon\apaIO\configuration\Country.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Genre.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\internal\search\Search.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\RadioGenres.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\amazon\apaIO\request\rest\Request.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\internal\search\SearchAutocomplete.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Album.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\catalogue\service\InitAmazon.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\internal\AlbumId.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Editorial.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\internal\search\SearchOrder.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\Tracks.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\internal\CommentId.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\internal\search\SearchAlbum.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\commerce\catalogue\service\CatalogueManager.java
+D:\Users\Ted\Documents\Cours\Alain\Amazon3.0\src\main\java\com\zeloon\deezer\domain\internal\search\SearchUser.java

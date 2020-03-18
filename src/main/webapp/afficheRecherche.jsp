@@ -7,16 +7,15 @@
 <%@ page import="commerce.catalogue.domaine.modele.Piste"%>
 <%@ page import="java.util.Iterator"%>
 <%@ page import="java.util.List"%>
-<%@ page import="commerce.gestion.Panier" %>
+<%@ page import="commerce.gestion.Panier"%>
 <%
-	if (session.getAttribute("panier")==null) {
+	if (session.getAttribute("panier") == null) {
 		response.sendRedirect("./index.jsp");
 	} else {
 		Panier lePanier = (Panier) session.getAttribute("panier");
-		CatalogueManager catalogueManager = (CatalogueManager) application
-									.getAttribute("catalogueManager");
+		CatalogueManager catalogueManager = (CatalogueManager) application.getAttribute("catalogueManager");
 		List<Article> articles = catalogueManager.getArticles();
-		Iterator<Article> listeDesArticles ;
+		Iterator<Article> listeDesArticles;
 		Livre livre = null;
 		Musique musique = null;
 		Article article;
@@ -31,11 +30,16 @@
 		<li id="menu-item-290"
 			class="menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="<%=response.encodeURL("./controlePanier.jsp")%>">Panier
-			<span class="badge"><%
-				out.print(lePanier.getNbArticlesCommandes());		
-			%></span>
-			</a>
-			
+				<span class="badge"> <%
+ 	out.print(lePanier.getNbArticlesCommandes());
+ %>
+			</span>
+		</a>
+		</li>
+		<li id="menu-item-290"
+			class="menu-item menu-item-type-custom menu-item-object-custom">
+			<a href="<%=response.encodeURL("./controleCommande.jsp")%>">Historique
+				des commandes</a>
 		</li>
 	</ul>
 </nav>
@@ -46,37 +50,37 @@
 				<h1 class="page-title">Résultats de la recherche</h1>
 				<ul class="products">
 					<%
-							listeDesArticles = articles.iterator() ;
+						listeDesArticles = articles.iterator();
 							while (listeDesArticles.hasNext()) {
 								article = (Article) listeDesArticles.next();
 					%>
 					<li class="product type-product"><a
-						href="<%=response.encodeURL("./controlePanier.jsp?refArticle="
-								+ article.getRefArticle()
-						+ "&amp;commande=ajouterLigne")%>"> <img
-							src="<% if (article.getImage().startsWith("http")) 
-									    out.print(article.getImage()) ;
-							        else
-							        	out.print("./images/"+article.getImage()) ; %>"
+						href="<%=response.encodeURL("./controlePanier.jsp?refArticle=" + article.getRefArticle()
+							+ "&amp;requete=ajouterLigne")%>">
+							<img
+							src="<%if (article.getImage().startsWith("http"))
+						out.print(article.getImage());
+					else
+						out.print("./images/" + article.getImage());%>"
 							class="attachment-shop_catalog wp-post-image" alt="poster_2_up"
-							height="300" width="300"/>
+							height="300" width="300" />
 							<h3><%=article.getTitre()%></h3> <span class="price"><ins>
 									<span class="amount"><%=article.getPrix()%> €</span>
 								</ins></span>
 
 					</a> <a
-						href="<%=response.encodeURL("./controlePanier.jsp?refArticle="
-								+ article.getRefArticle()
-						+ "&amp;commande=ajouterLigne")%>"
+						href="<%=response.encodeURL("./controlePanier.jsp?refArticle=" + article.getRefArticle()
+							+ "&amp;requete=ajouterLigne")%>"
 						class="button add_to_cart_button product_type_simple">Mettre
-							dans le panier</a>
-<%
-                            	if (article instanceof Musique) { 
-                            		musique = (Musique) article;
-                            		if (musique.getPistes().size() > 0) {
-%>
-						<div id="jquery_jplayer_<%=article.getRefArticle()%>" class="jp-jplayer"></div>
-						<div id="jp_container_<%=article.getRefArticle()%>" class="jp-audio" role="application">
+							dans le panier</a> <%
+ 	if (article instanceof Musique) {
+ 				musique = (Musique) article;
+ 				if (musique.getPistes().size() > 0) {
+ %>
+						<div id="jquery_jplayer_<%=article.getRefArticle()%>"
+							class="jp-jplayer"></div>
+						<div id="jp_container_<%=article.getRefArticle()%>"
+							class="jp-audio" role="application">
 							<div class="jp-type-playlist">
 								<div class="jp-gui jp-interface">
 									<div class="jp-controls-holder">
@@ -100,11 +104,10 @@
 										plugin</a>.
 								</div>
 							</div>
-						</div> 
-<%
-                            		}
-                            	}
-							}
+						</div> <%
+ 	}
+ 			}
+ 		}
  %>
 				</ul>
 			</section>
@@ -114,36 +117,25 @@
 <script type="text/javascript">
 window.addEventListener("load", myFunction, false);
 function myFunction(event) {
-<%
-		listeDesArticles = articles.iterator() ;
-		while (listeDesArticles.hasNext()) {
-			article = (Article) listeDesArticles.next();
-			if (article instanceof Musique) {
-%>
+<%listeDesArticles = articles.iterator();
+				while (listeDesArticles.hasNext()) {
+					article = (Article) listeDesArticles.next();
+					if (article instanceof Musique) {%>
 	var myPlaylist_<%=article.getRefArticle()%> = new jPlayerPlaylist({
 	cssSelectorAncestor : "#jp_container_<%=article.getRefArticle()%>",
-	jPlayer: "#jquery_jplayer_<%=article.getRefArticle()%>"}, [<%
-	musique = (Musique) article;
-				if (musique.getPistes().size() > 0) {
-					Iterator<Piste> itPistes = musique.getPistes()
-							.iterator();
-					Piste unePiste;
-					while (itPistes.hasNext()) {
-						unePiste = itPistes.next();
-%>
-{ title:"<%=unePiste.getTitre().replace("\"", "\\\"" )%>", mp3:"<%=unePiste.getUrl()%>" },<%
-
-					}
-				}
-%>
+	jPlayer: "#jquery_jplayer_<%=article.getRefArticle()%>"}, [<%musique = (Musique) article;
+						if (musique.getPistes().size() > 0) {
+							Iterator<Piste> itPistes = musique.getPistes().iterator();
+							Piste unePiste;
+							while (itPistes.hasNext()) {
+								unePiste = itPistes.next();%>
+{ title:"<%=unePiste.getTitre().replace("\"", "\\\"")%>", mp3:"<%=unePiste.getUrl()%>" },<%}
+						}%>
 ], { swfPath : "/js/jplayer-2.9.2/jplayer", supplied : "mp3", wmode:
 "window", useStateClassSkin: true, autoBlur: false, smoothPlayBar: true,
 keyEnabled: true });
-<%
-
-			}
-		}
-%>
+<%}
+				}%>
 	var jp_playlist_tab = document.getElementsByClassName("jp-playlist") ;
  	for (i = 0; i < jp_playlist_tab.length; i++) {
     	jp_playlist_tab[i].style.display = "none";

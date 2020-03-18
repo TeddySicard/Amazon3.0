@@ -5193,11 +5193,13 @@ body.search .portfolio .portfolio-img {
 */
 
 .badge {
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  padding: 5px 10px;
-  border-radius: 50%;
-  background-color: red;
-  color: white;
-}
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    z-index: 1;
+    }
+

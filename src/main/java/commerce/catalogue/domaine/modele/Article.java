@@ -27,6 +27,15 @@ public class Article {
 	private double prix;
 	private int disponibilite;
 
+	public Article() {}
+	
+	public Article(Article article) {
+		refArticle = article.refArticle;
+		titre = article.titre;
+		image = article.image;
+		prix = article.prix;
+		disponibilite = article.disponibilite;
+	}
 	@Id
 	public String getRefArticle() {
 		return refArticle;

@@ -1,5 +1,14 @@
 <%@ page pageEncoding="UTF-8"%>
 <%@ include file="enTetePage.html"%>
+<%@ page import="commerce.gestion.Panier"%>
+
+
+<%
+	if (session.getAttribute("panier") == null) {
+		response.sendRedirect("./index.jsp");
+	} else {
+		Panier lePanier = (Panier) session.getAttribute("panier");
+%>
 <nav id="navigation" class="col-full" role="navigation">
 	<ul id="main-nav" class="nav fl">
 		<li id="menu-item-290"
@@ -9,7 +18,18 @@
 		</li>
 		<li id="menu-item-290"
 			class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item">
-			<a href="<%=response.encodeURL("./controlePanier.jsp")%>">Panier</a>
+			<a href="<%=response.encodeURL("./controlePanier.jsp")%>">Panier
+				<span class="badge">
+					<%
+						out.print(lePanier.getNbArticlesCommandes());
+					%>
+			</span>
+		</a>
+		</li>
+		<li id="menu-item-290"
+			class="menu-item menu-item-type-custom menu-item-object-custom">
+			<a href="<%=response.encodeURL("./controleCommande.jsp")%>">Historique
+				des commandes</a>
 		</li>
 	</ul>
 </nav>
@@ -25,5 +45,8 @@
 		</div>
 	</div>
 </div>
+<%
+	}
+%>
 <%@ include file='piedDePage.html'%>
 

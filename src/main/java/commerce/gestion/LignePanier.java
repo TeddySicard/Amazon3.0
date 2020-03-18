@@ -15,6 +15,14 @@ public class LignePanier {
 	private double prixTotal;
 	private int quantite;
 	public LignePanier() {}
+	
+	public LignePanier(LignePanier lp) {
+		prixUnitaire = lp.prixUnitaire;
+		prixTotal = lp.prixTotal;
+		quantite = lp.quantite;
+		article = new Article(lp.article);
+	}
+	
 	public void setArticle(Article inArticle) {
 		article = inArticle;
 	}
