@@ -1,0 +1,314 @@
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+  <OperationRequest>
+    <RequestId>1ac40b3e-82b4-4a7d-8145-4182b4068ad8</RequestId>
+    <Arguments>
+      <Argument Name="Keywords" Value="Ibrahim Maalouf" />
+      <Argument Name="Operation" Value="ItemSearch" />
+      <Argument Name="ResponseGroup" Value="Offers,ItemAttributes" />
+      <Argument Name="SearchIndex" Value="Music" />
+      <Argument Name="Service" Value="AWSECommerceService" />
+      <Argument Name="Timestamp" Value="2020-03-16T06:00:11Z" />
+      <Argument Name="Version" Value="2009-03-31" />
+    </Arguments>
+    <RequestProcessingTime>2.2291491031647</RequestProcessingTime>
+  </OperationRequest>
+  <Items>
+    <Request>
+      <IsValid>True</IsValid>
+      <ItemSearchRequest>
+        <Keywords>Ibrahim Maalouf</Keywords>
+        <ResponseGroup>Offers</ResponseGroup>
+        <ResponseGroup>ItemAttributes</ResponseGroup>
+        <SearchIndex>music</SearchIndex>
+      </ItemSearchRequest>
+    </Request>
+    <Item>
+      <ASIN>B01JGQ3NIE</ASIN>
+      <SmallImage>
+        <URL>https://m.media-amazon.com/images/I/718KUMLW2yL._SL75_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>https://m.media-amazon.com/images/I/718KUMLW2yL._SL160_.jpg</URL>
+        <Height Units="pixels">157</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>https://m.media-amazon.com/images/I/718KUMLW2yL._SL500_.jpg</URL>
+        <Height Units="pixels">492</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Ibrahim Maalouf</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>B01JGQ3NIE</EAN>
+        <EANList>
+          <EANListElement>B01JGQ3NIE</EANListElement>
+        </EANList>
+        <ProductGroup>Music</ProductGroup>
+        <Title>10 ans de Live - Livre-Disque Édition Limitée (CD Best Of 9 titres + DVD Best Of 9 titres + 5 bonus)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1699</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 16,99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B07KBT4ZRG</ASIN>
+      <SmallImage>
+        <URL>https://m.media-amazon.com/images/I/71vkdrnij3L._SL75_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>https://m.media-amazon.com/images/I/71vkdrnij3L._SL160_.jpg</URL>
+        <Height Units="pixels">157</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>https://m.media-amazon.com/images/I/71vkdrnij3L._SL500_.jpg</URL>
+        <Height Units="pixels">492</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Ibrahim Maalouf</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>B07KBT4ZRG</EAN>
+        <EANList>
+          <EANListElement>B07KBT4ZRG</EANListElement>
+        </EANList>
+        <ProductGroup>Music</ProductGroup>
+        <Title>14.12.16-Live in Paris [Import]</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1699</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 16,99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B074WVY89Z</ASIN>
+      <SmallImage>
+        <URL>https://m.media-amazon.com/images/I/71kZ1Vqx70L._SL75_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>https://m.media-amazon.com/images/I/71kZ1Vqx70L._SL160_.jpg</URL>
+        <Height Units="pixels">157</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>https://m.media-amazon.com/images/I/71kZ1Vqx70L._SL500_.jpg</URL>
+        <Height Units="pixels">492</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Ibrahim Maalouf</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>B074WVY89Z</EAN>
+        <EANList>
+          <EANListElement>B074WVY89Z</EANListElement>
+        </EANList>
+        <ProductGroup>Music</ProductGroup>
+        <Title>Illusions</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1678</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 16,78</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B01ACA08FO</ASIN>
+      <SmallImage>
+        <URL>https://m.media-amazon.com/images/I/41yNmTI07ML._SL75_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>https://m.media-amazon.com/images/I/41yNmTI07ML._SL160_.jpg</URL>
+        <Height Units="pixels">157</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>https://m.media-amazon.com/images/I/41yNmTI07ML._SL500_.jpg</URL>
+        <Height Units="pixels">492</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Ibrahim Maalouf</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>B01ACA08FO</EAN>
+        <EANList>
+          <EANListElement>B01ACA08FO</EANListElement>
+        </EANList>
+        <ProductGroup>Music</ProductGroup>
+        <Title>Kalthoum</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2190</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 21,90</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B076ML49PQ</ASIN>
+      <SmallImage>
+        <URL>https://m.media-amazon.com/images/I/81pRY5foTNL._SL75_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>https://m.media-amazon.com/images/I/81pRY5foTNL._SL160_.jpg</URL>
+        <Height Units="pixels">157</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>https://m.media-amazon.com/images/I/81pRY5foTNL._SL500_.jpg</URL>
+        <Height Units="pixels">492</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Ibrahim Maalouf</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>B076ML49PQ</EAN>
+        <EANList>
+          <EANListElement>B076ML49PQ</EANListElement>
+        </EANList>
+        <ProductGroup>Music</ProductGroup>
+        <Title>Diagnostic</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2199</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 21,99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B076MG4TMS</ASIN>
+      <SmallImage>
+        <URL>https://m.media-amazon.com/images/I/61H9zBSmntL._SL75_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>https://m.media-amazon.com/images/I/61H9zBSmntL._SL160_.jpg</URL>
+        <Height Units="pixels">157</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>https://m.media-amazon.com/images/I/61H9zBSmntL._SL500_.jpg</URL>
+        <Height Units="pixels">492</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Ibrahim Maalouf</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>B076MG4TMS</EAN>
+        <EANList>
+          <EANListElement>B076MG4TMS</EANListElement>
+        </EANList>
+        <ProductGroup>Music</ProductGroup>
+        <Title>Diasporas</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1996</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 19,96</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+        </Offer>
+      </Offers>
+    </Item>
+  </Items>
+</ItemSearchResponse>

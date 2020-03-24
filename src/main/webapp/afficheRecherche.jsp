@@ -43,6 +43,20 @@
 		</li>
 	</ul>
 </nav>
+
+<form
+	action="<%=response.encodeURL("controleType.jsp?commande=choixType")%>"
+	name="panier" method="post">
+	<input type="text" id="choixArticle" name="choixArticle" size="20">
+	<select name="allChoice">
+		<!-- <option value=0>-- Please choose an option --</option>  -->
+		<option value=1>Article</option>
+		<option value=2>Livre</option>
+		<option value=3>Musique</option>
+		<option value=4>Piste</option>
+	</select> <input type="submit" value="Confirmer" />
+</form>
+
 <div id="content" class="site-content" tabindex="-1">
 	<div class="col-full">
 		<div class="primary" class="content-area">

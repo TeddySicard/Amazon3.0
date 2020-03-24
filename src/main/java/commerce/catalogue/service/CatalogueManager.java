@@ -21,6 +21,17 @@ public class CatalogueManager {
 
 	private List articles; 
 	
+	public void clear() {
+		try {
+			List<Article> list = this.getArticles();
+			for (Article art : list) {
+				this.supprimerArticleParRef(art.getRefArticle());
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}		
+	}
+	
 	public Article chercherArticleParRef(String inRefArticle) throws Exception {
 		Article article ;
 		Session session = HibernateUtil.getSessionFactory().getCurrentSession() ;
@@ -89,17 +100,22 @@ public class CatalogueManager {
 			throw e; 
 		}
 	}
+	
 	public void setArticles(List inArticles) throws Exception {
 		articles = inArticles;
 	}
+	
 	public List getArticles() throws Exception {
 		Session session = HibernateUtil.getSessionFactory().getCurrentSession() ;
 		try {
 			session.beginTransaction();
 			Query query = session.createQuery("from commerce.catalogue.domaine.modele.Article") ;
-			//question6td3
+			//question6TD3
 			//Query query = session.createQuery("from commerce.catalogue.domaine.modele.Livre") ;
-
+			/*Query query = session.createQuery("from commerce.catalogue.domaine.modele.Article as m where "
+					+" upper(m.titre) like upper(:paramMotCle)") ;
+			query.setParameter("paramMotCle", "%illUsiOns%") ;*/
+			
 			articles = query.list() ;
 			session.getTransaction().commit();
 		}
