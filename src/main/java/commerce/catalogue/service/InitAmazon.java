@@ -33,6 +33,7 @@ import amazon.apaIO.operations.Search;
 import commerce.catalogue.domaine.modele.Livre;
 import commerce.catalogue.domaine.modele.Musique;
 import commerce.catalogue.domaine.modele.Piste;
+import commerce.catalogue.domaine.modele.VideoGame;
 
 public class InitAmazon {
 
@@ -49,6 +50,7 @@ public class InitAmazon {
 			this.initLivre(words);
 			this.initMusique(words);
 			this.initPiste(words);
+			this.initJeuxVideo(words);
 			break;
 		case 2:
 			this.initLivre(words);
@@ -58,6 +60,9 @@ public class InitAmazon {
 			break;
 		case 4: 
 			this.initPiste(words);
+			break;
+		case 5: 
+			this.initJeuxVideo(words);
 			break;
 	}
 	}
@@ -122,7 +127,6 @@ public class InitAmazon {
 						if (itemAttributes.getChild("ProductGroup",espaceNom).getText().equals("Book")) {
 							livre.setRefArticle(item.getChild("ASIN",espaceNom).getText());
 							livre.setTitre(itemAttributes.getChild("Title",espaceNom).getText());
-							//livre.setEAN(itemAttributes.getChild("EAN",espaceNom).getText());
 							livre.setImage(image.getChild("URL",espaceNom).getText());
 							livre.setPrix(Integer.parseInt(item.getChild("OfferSummary",espaceNom).getChild("LowestNewPrice",espaceNom).getChild("Amount",espaceNom).getText())/100.0);
 							livre.setDisponibilite(1);
@@ -176,6 +180,86 @@ public class InitAmazon {
 				}
 				catch (Exception e) {
 					e.printStackTrace() ;
+				}
+			}
+		}
+		catch (JDOMException e) {
+			e.printStackTrace() ;
+		}
+		catch (IOException e) {
+			e.printStackTrace() ;
+		}
+	}
+	
+	private void initJeuxVideo(String words) {
+		String ENDPOINT = "odp.tuxfamily.org";
+		String AWS_ACCESS_KEY_ID = "YOUR_ACCESS_KEY_ID_HERE";
+		String AWS_SECRET_KEY = "YOUR_SECRET_KEY_HERE";
+
+		GenericConfiguration conf = new GenericConfiguration();
+		conf.setAccessKey(AWS_ACCESS_KEY_ID) ;
+		conf.setSecretKey(AWS_SECRET_KEY);
+		conf.setEndPoint(ENDPOINT);
+
+
+		ApaiIO apaiIO = new ApaiIO();
+		apaiIO.setConfiguration(conf) ;
+		Search search = new Search();
+		search.setCategory("VideoGames");
+		search.setResponseGroup("Offers,ItemAttributes,Images") ;
+		String keywords = words;
+		search.setKeywords(keywords);
+		
+		VideoGame jeux;
+		SAXBuilder builder = new SAXBuilder();
+		builder.setIgnoringElementContentWhitespace(true);
+		Document document ;
+		Element racine = null ;
+		Namespace espaceNom = null ;
+
+		try {
+			document = builder.build(new StringReader(apaiIO.runOperation(search)));
+			racine = document.getRootElement() ;
+			espaceNom = Namespace.getNamespace(racine.getNamespaceURI());
+
+			try {
+				FileWriter writer = new FileWriter("amazonResponse.xml");
+				XMLOutputter outputter = new XMLOutputter(Format.getPrettyFormat());
+				outputter.output(racine, writer);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+			if (espaceNom != null && !racine.getName().equals("ItemSearchErrorResponse")) {
+				Element items = racine.getChild("Items",espaceNom) ;
+				Iterator<Element> itemIterator = items.getChildren("Item",espaceNom).iterator() ;
+				Element item ;
+				Element itemAttributes ;
+				Element image ;
+				int i = 0 ;
+				while (itemIterator.hasNext() && i != 6) {
+					item = itemIterator.next() ;
+					itemAttributes = item.getChild("ItemAttributes",espaceNom);
+					image = item.getChild("LargeImage",espaceNom);
+					jeux = new VideoGame();
+					try 
+					{
+						if (itemAttributes.getChild("ProductGroup",espaceNom).getText().equals("VideoGames")) {
+							jeux.setRefArticle(item.getChild("ASIN",espaceNom).getText());
+							jeux.setTitre(itemAttributes.getChild("Title",espaceNom).getText());
+							jeux.setImage(image.getChild("URL",espaceNom).getText());
+							jeux.setPrix(Integer.parseInt(item.getChild("OfferSummary",espaceNom).getChild("LowestNewPrice",espaceNom).getChild("Amount",espaceNom).getText())/100.0);
+							jeux.setDisponibilite(1);
+							catalogueManager.soumettreArticle(jeux) ;
+							i ++ ;
+						}
+					}
+					catch (NullPointerException e) {
+						e.printStackTrace() ;
+					}
+					catch (Exception e) {
+						e.printStackTrace() ;
+					}
 				}
 			}
 		}

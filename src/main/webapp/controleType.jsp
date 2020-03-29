@@ -30,6 +30,9 @@
 				case 4: 
 					a.init(choice,words);
 					break;
+				case 5: 
+					a.init(choice,words);
+					break;
 			}
 		}
 	}

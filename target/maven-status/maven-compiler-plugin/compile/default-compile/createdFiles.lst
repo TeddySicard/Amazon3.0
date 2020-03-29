@@ -1,2 +1,3 @@
 commerce\gestion\ListeCommande.class
+commerce\catalogue\domaine\modele\VideoGame.class
 commerce\gestion\Commande.class
