@@ -17,26 +17,7 @@
 	if (commande != null) {
 		if (commande.equals("choixType")) {
 			InitAmazon a = new InitAmazon(catalogueManager);
-			switch (choice) { // initialiser a chaque fois l'objet initAmazon.java
-				case 1:
-					a.init(choice,words);
-					break;
-				case 2:
-					a.init(choice,words);
-					break;
-				case 3:
-					a.init(choice,words);
-					break;
-				case 4: 
-					a.init(choice,words);
-					break;
-				case 5: 
-					a.init(choice,words);
-					break;
-				case 6: 
-					a.init(choice,words);
-					break;
-			}
+			a.init(choice,words);
 		}
 	}
 	response.sendRedirect(response.encodeURL("afficheRecherche.jsp"));
