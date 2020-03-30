@@ -1,3 +1,4 @@
 commerce\gestion\ListeCommande.class
 commerce\catalogue\domaine\modele\VideoGame.class
+commerce\catalogue\domaine\modele\DVD.class
 commerce\gestion\Commande.class

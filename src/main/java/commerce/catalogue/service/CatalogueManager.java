@@ -109,13 +109,7 @@ public class CatalogueManager {
 		Session session = HibernateUtil.getSessionFactory().getCurrentSession() ;
 		try {
 			session.beginTransaction();
-			Query query = session.createQuery("from commerce.catalogue.domaine.modele.Article") ;
-			//question6TD3
-			//Query query = session.createQuery("from commerce.catalogue.domaine.modele.Livre") ;
-			/*Query query = session.createQuery("from commerce.catalogue.domaine.modele.Article as m where "
-					+" upper(m.titre) like upper(:paramMotCle)") ;
-			query.setParameter("paramMotCle", "%illUsiOns%") ;*/
-			
+			Query query = session.createQuery("from commerce.catalogue.domaine.modele.Article") ;			
 			articles = query.list() ;
 			session.getTransaction().commit();
 		}

@@ -33,6 +33,9 @@
 				case 5: 
 					a.init(choice,words);
 					break;
+				case 6: 
+					a.init(choice,words);
+					break;
 			}
 		}
 	}

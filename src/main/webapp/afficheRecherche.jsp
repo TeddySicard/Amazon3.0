@@ -55,6 +55,7 @@
 		<option value=3>Musique</option>
 		<option value=4>Piste</option>
 		<option value=5>Jeux vidéo</option>
+		<option value=6>DVD</option>
 	</select> <input type="submit" value="Confirmer" />
 </form>
 
