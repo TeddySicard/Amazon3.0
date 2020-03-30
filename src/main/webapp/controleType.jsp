@@ -17,7 +17,8 @@
 	if (commande != null) {
 		if (commande.equals("choixType")) {
 			InitAmazon a = new InitAmazon(catalogueManager);
-			a.init(choice,words);
+			if (words.isEmpty()) a.init(1,"Ibrahim Maalouf");
+			else a.init(choice,words);
 		}
 	}
 	response.sendRedirect(response.encodeURL("afficheRecherche.jsp"));
